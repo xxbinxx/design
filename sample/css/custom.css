@@ -1,0 +1,130 @@
+html,
+body{
+	height: 100%;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+body{
+    padding-top: 50px;
+}
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#service{
+	width: 100%;
+	height: 100%;
+	background: #87CEFF;
+    overflow: hidden;
+}
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+section {
+    padding: 150px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #382851;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #281d3a;
+}
+footer
+{
+    background: #583E7E;
+    color: #B5A0C0;
+}
+footer ul li a {color: #B5A0C0;}
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+footer ul.quicklinks a:hover{color: #B5A0C0;}
+input[type=submit]{background: #6f4fa1; color: #c9bcde; }
+input[type=submit]:hover{background: #483368; color: #c9bcde;}
+
+/*form*/
+h2.form-head
+{
+    text-align:center; 
+    font-family:'Century Gothic', sans-serif;
+    font-weight: normal;
+    margin-bottom: -15px;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+}
+.error
+{
+    color: red;
+    font-weight: normal;
+}
+input[type=email],
+input[type=password],
+input[type=text]{
+    color: #000;
+}
